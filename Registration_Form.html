@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>My Registration Form</h1>
+    </head>
+    <form action="/future server" method="POST">
+        <p>First Name: <input type="text" name="First Name"></p>
+        <p>Last Name:  <input type="text" name="Last Name"></p>
+        <p>Email:      <input type="text" name="Email"></p>
+        <p>Password:   <input type="text" name="Password"></p>
+        <p>PW Confirm: <input type="text" name="PW Confirm"> </p>
+        <p><label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><p>
+        
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other">Other
+        <p>A short description about yourself: <br><textarea name="desc" rows="5" cols="20"></textarea></p>
+        <p>Favorite Language: <select name ="language">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select> </p>
+        <input type="submit" value="Submit">
+    </form>
+</html>
