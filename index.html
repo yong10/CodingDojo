@@ -2,27 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cancun, Mexico</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Cancun: Place where you want to be.</h1>
-            <img src="https://gocity.com/blog/wp-content/uploads/Cancun-Landscape-Image-SDI-2-768x500.jpg" alt="cancun">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at placerat elit, quis sagittis diam.
+         <div class="container">
+            <h1>Cancun: Place where you want to be.</h1>
+            <img src="https://gocity.com/blog/wp-content/uploads/Cancun-Landscape-Image-SDI-2-768x500.jpg" alt="cancun" width="600" height="400" align="right">
+            <p class="ph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at placerat elit, quis sagittis diam.
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tincidunt, 
-            ex ullamcorper fermentum blandit, risus metus lacinia quam, vitae iaculis quam augue nec nisi. Pellentesque 
-            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis sodales nunc, 
+            ex ullamcorper fermentum blandit, risus metus lacinia quam, vitae iaculis quam augue nec nisi.Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis sodales nunc, 
             nec pulvinar turpis. Sed varius nisl quis libero dignissim, non posuere augue commodo. Mauris sit amet viverra tellus. 
             Mauris pretium volutpat molestie. Aenean volutpat ante nec erat varius, non porttitor dolor fringilla. Vivamus ut rhoncus 
             dolor. Pellentesque aliquam odio ac ex bibendum, ac ullamcorper nulla faucibus. Suspendisse potenti. In porttitor orci
             eget elementum vulputate. Praesent dapibus ipsum et felis auctor, iaculis aliquam ipsum lacinia. Pellentesque at 
             elit arcu.</p>
-            
-            <table border="1" width="25%">
+            <table border="1" width="48%">
                 <thead>
                     <tr>
-                        <td>Month</td>
-                        <td>High / Low (°F)</td>
+                        <td height="50"><h3>Month</h3></td>
+                        <td height="50"><h3>High / Low (°F)</h3></td>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,13 +56,11 @@
             </table>
             <ul>
                 <li>Best Times to Visit Cancun </li>
-                <li>
-                    <ul>
-                        <li>December to April</li>
-                    </ul>
-                </li>
+                <li id="bullet">December to April</li>
             </ul>
-            <a href="https://youtu.be/PAtu5ja1u70">ESCAPE from the COLD</a>
+            <video controls width"250">          a href="https://youtu.be/PAtu5ja1u70">ESCAPE from the COLD</a>
+                <source src="https://youtu.be/PAtu5ja1u70" type=video/ogg>
+            </video>
             <h3>Your time is greatly appreciated</h3><br>
             <p>Last Name:  <input type="text" name="Last Name"></p>
             <input type="radio" name="email" value="Yes"> Yes, I want to receive emails
@@ -87,5 +86,6 @@
                     <option value="november">November</option>
                     <option value="december">December</option></select> </p>
                     <input type="submit" value="Submit">
+         </div>
     </body>
 </html>
